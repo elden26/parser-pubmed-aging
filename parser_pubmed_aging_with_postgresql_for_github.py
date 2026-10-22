@@ -40,7 +40,7 @@ headers = {'UserAgent' : random_user_agent}
 #собираем URL для парсинга
 base_url = "https://pubmed.ncbi.nlm.nih.gov"  
 
-for page_num in range(1, <количество страниц для парсинга>): 
+for page_num in range(1, 2): 
     url = (              
         f'{base_url}'
         f'?term=aging'
